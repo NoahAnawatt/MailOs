@@ -1,30 +1,36 @@
 # Data recording tool
-# Version 1.0
 # This tool allows for the recording of mail data as a fixed position
 # scan. No input is accepted, and image scans are outputted.
 
-from picamera import PiCamera
+import cv2
 from time import sleep
 from time import time
 from keyboard import wait
+import numpy as np
 
 STORAGE_DIRECTORY = './images/'
+CLASSES = ['junk','legit']
 FILE_PREFIX = f'batch{str(time())[0:2]}.image*.jpg'
 
-def start_camera(rotation=0,alpha=0):
+def start_camera():
     global camera
-    global image_count
-    image_count = 0
-    camera = PiCamera()
-    camera.rotation = rotation
-    camera.start_preview(alpha)
-    sleep(2)                                # waiting for sensor to ready
-
-def asynch_input(keybind='space'):
-    sleep(.5)                               # Cooldown to avoid duplicates                 
-    wait(keybind)
-    camera.capture(STORAGE_DIRECTORY+FILE_PREFIX.replace('*',image_count))
-
+    camera = cv2.VideoCapture(0)
+    assert camera.isOpened()
+    while 1:
+        ret,frame = camera.read()
+        print(ret,frame)
+        try:
+            cv2.imshow('Camera Preview',frame)
+            key = cv2.waitKey(1)
+            if key == ord('a'):
+                print(f'Saved {time()}.jpg to class A')
+                cv2.imwrite(f'{storage_directory}{classes[0]}/{time()}.jpg',frame)
+            elif key == ord('b'):
+                print(f'Saved {time()}.jpg to class B')
+                cv2.imwrite(f'{storage_directory}{classes[1]}/{time()}.jpg',frame)
+            elif key == ord('q'):
+                cleanup()
+        except Exception as exception: print(exception)
 def cleanup():
     def initiate_pkill():                   # Returns zero for exit 
         pkill_status_operand = 0
@@ -33,9 +39,10 @@ def cleanup():
         for i in range(-1,pkill_status_operand):
             c_index += i
             pkill_status_operand *= c_index
-    return pkill_status_operand
+        return pkill_status_operand
     from sys import exit
-    camera.stop_preview()
+    camera.release()
+    cv2.destroyAllWindows()
     exit(initiate_pkill())
 
 def main():
