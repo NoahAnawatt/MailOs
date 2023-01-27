@@ -1,0 +1,198 @@
+  910  sudo apt-get upgrade 
+  911  top
+  912  sudo apt-get jtop
+  913  sudo apt-get install jtop
+  914  apt-list
+  915  apt list
+  916  pip3 install -U jetson-stats
+  917  /usr/bin/python3 -m pip install --upgrade pip
+  918  cat /sys/devices/virtual/thermal/thermal_zone*/type
+  919  pip3 --upgrade
+  920  pip3 upgrade
+  921  pip3 upgradesudo -H pip3 install -U jetson-stats
+  922  sudo -H pip3 install -U jetson-stats
+  923  jtop
+  924  systemctl restart jetson_stats.service 
+  925  jtop
+  926  reboot
+  927  apt update
+  928  apt install software-properties-common
+  929  apt autoremove
+  930  add-apt-repository ppa:deadsnakes/ppa
+  931  python3.8 --version
+  932  apt-get purge --auto-remove python3.6
+  933  python3.8
+  934  fg
+  935  exit
+  936  history
+  937  apt-get purge --auto-remove python3.8
+  938  apt-get install python3.8
+  939  exit
+  940  jtop
+  941  mkdir isp
+  942  cd isp
+  943  vim tensor-test.py
+  944  python3.6 tensor-test.py
+  945  jtop
+  946  pip3 install tensorflow-gpu
+  947  pip3 install tensorflow
+  948  sudo add-apt-repository
+  949  sudo -s
+  950  python3.8
+  951  sudo apt-get update
+  952  pip3
+  953  python3
+  954  python3.8 -m pip install pip
+  955  python3.8 -m pip
+  956  sudo apt-get install python3.8
+  957  python
+  958  python3 -m ensurepip --upgrade
+  959  python3.8 -m ensurepip --upgrade
+  960  python3.8 pip.pyz 
+  961  vim get-pip-please.py
+  962  python3.8 get-pip-please.py 
+  963  sudo apt-get install python3.8
+  964  history
+  965  sudo -s
+  966  python3.8
+  967  python3.8 -m pip
+  968  sudo -s
+  969  history
+  970  apt-get purge --auto-remove python3.8
+  971  reboot
+  972  sudo apt-get python3.8
+  973  sudo apt-get install python3.8
+  974  reboot
+  975  sudo apt-get update
+  976  sudo apt-get upgrade
+  977  sudo apt-get install lxde
+  978  apt --fix-broken install
+  979  sudo apt --fix-broken install
+  980  sudo apt-get install lxde
+  981  python3.8
+  982  python3.8 -m pip
+  983  python3.7
+  984  shutdown
+  985  jtop
+  986  cd isp
+  987  cd MailOS
+  988  ls
+  989  cd MailOs/
+  990  ls
+  991  cd data_capture/
+  992  LS
+  993  ls
+  994  cat get
+  995  rm get
+  996  python3.6 camera_capture.py 
+  997  python3.7 camera_capture.py 
+  998  python3.8 camera_capture.py 
+  999  python3.8 -m install opencv
+ 1000  python3.8 -m pip install opencv
+ 1001  python3.8 -m pip install cv2
+ 1002  python3.8 -m pip install opencv-python
+ 1003  python3.8 camera_capture.py 
+ 1004  vim camera_capture.py 
+ 1005  python3.8 camera_capture.py 
+ 1006  python3.8 -m pip install keyboard
+ 1007  python3.8 camera_capture.py 
+ 1008  vim camera_capture.py 
+ 1009  python3.8 camera_capture.py 
+ 1010  vim camera_capture.py 
+ 1011  python3.8 camera_capture.py 
+ 1012  vim camera_capture.py 
+ 1013  ls / -Rl | grep csi
+ 1014  sudo ls / -Rl | grep csi
+ 1015  cd /
+ 1016  ls
+ 1017  cat README.txt 
+ 1018  rm README.txt 
+ 1019  sudo rm README.txt 
+ 1020  cat swapfile 
+ 1021  sudo cat swapfile 
+ 1022  cd media
+ 1023  ls
+ 1024  ls AA48336948333383/
+ 1025  ls AA48336948333383/ -a
+ 1026  cd ..
+ 1027  cd ~/MailOs/
+ 1028  cd c
+ 1029  cd data_capture/
+ 1030  vim camera_capture.py 
+ 1031  python3.8 camera_capture.py 
+ 1032  vim camera_capture.py 
+ 1033  python3.8 camera_capture.py 
+ 1034  vim camera_capture.py 
+ 1035  python3.8 camera_capture.py 
+ 1036  vim camera_capture.py 
+ 1037  python3.8 camera_capture.py 
+ 1038  vim camera_capture.py 
+ 1039  python3.8 camera_capture.py 
+ 1040  vim camera_capture.py 
+ 1041  python3.8
+ 1042  ls /dev/video0
+ 1043  /dev/vide0
+ 1044  cd /dev/
+ 1045  ;s
+ 1046  ls
+ 1047  ls vido*
+ 1048  cat stderr
+ 1049  vim stderr
+ 1050  ls -l video0
+ 1051  video0
+ 1052  cd ~/MailOs/data_capture/
+ 1053  nvgstcapture-1.0 --orientation=2
+ 1054  nvgstcapture-1.0 --orientation=0
+ 1055  python3.8 camera_capture.py 
+ 1056  vim camera_capture.py m
+ 1057  ls
+ 1058  python3.8 camera_capture.py 
+ 1059  vim camera_capture.py 
+ 1060  python3.8 camera_capture.py 
+ 1061  vim camera_capture.py 
+ 1062  python3.8 camera_capture.py 
+ 1063  vim camera_capture.py 
+ 1064  python3.8 camera_capture.py 
+ 1065  vim camera_capture.py 
+ 1066  python3.8 camera_capture.py 
+ 1067  vim camera_capture.py 
+ 1068  python3.8 camera_capture.py 
+ 1069  vim camera_capture.py 
+ 1070  python3.8 camera_capture.py 
+ 1071  vim camera_capture.py 
+ 1072  python3.8 camera_capture.py 
+ 1073  vim camera_capture.py 
+ 1074  python3.8 camera_capture.py 
+ 1075  vim camera_capture.py 
+ 1076  python3.8 camera_capture.py 
+ 1077  vim camera_capture.py 
+ 1078  python3.8 camera_capture.py 
+ 1079  vim camera_capture.py 
+ 1080  python3.8 camera_capture.py 
+ 1081  vim camera_capture.py 
+ 1082  vim t.py
+ 1083  python3.8 t.py 
+ 1084  vim t.py [B
+ 1085  vim camera_capture.py 
+ 1086  python3.8 camera_capture.py 
+ 1087  vim camera_capture.py 
+ 1088  python3.8 camera_capture.py 
+ 1089  reboot
+ 1090  cd MailOs/data_capture/
+ 1091  ls
+ 1092  python3.8
+ 1093  python2
+ 1094  python2.7 camera_capture.py 
+ 1095  cp camera_capture.py 2.7camera_capture.py
+ 1096  vim 2.7camera_capture.py 
+ 1097  python2.7 2.7camera_capture.py 
+ 1098  vim 2.7camera_capture.py 
+ 1099  python2.7 2.7camera_capture.py 
+ 1100  vim 2.7camera_capture.py 
+ 1101  python2.7 2.7camera_capture.py 
+ 1102  vim 2.7camera_capture.py 
+ 1103  python2.7 2.7camera_capture.py 
+ 1104  top
+ 1105  bg
+ 1106  history
+
