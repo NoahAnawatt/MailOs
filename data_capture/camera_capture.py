@@ -5,7 +5,6 @@
 import cv2
 from time import sleep
 from time import time
-from keyboard import wait
 import numpy as np
 
 STORAGE_DIRECTORY = './images/'
