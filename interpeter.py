@@ -25,5 +25,5 @@ for class_name in classes:
         pred = model.predict(images)
         class_idx = int(np.round(pred[0]))
         class_name = classes[class_idx]
-        print(f"Predicted class for image {img_path}: {class_name}")
+        print(f"Predicted class for image {img_path}: {class_name}, image is actually {img_path.split('/')[2]}")
 
