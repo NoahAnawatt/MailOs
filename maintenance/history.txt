@@ -195,4 +195,6 @@
  1104  top
  1105  bg
  1106  history
-
+ 1107  sudo reboot --service systectl-null
+ 1108  echo c > /proc/sysrqtrigger
+ 1109  apt-get install cv2 -D gstreamer-CUDA

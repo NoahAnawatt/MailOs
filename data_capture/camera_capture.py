@@ -2,7 +2,9 @@
 # This tool allows for the recording of mail data as a fixed position
 # scan. No input is accepted, and image scans are outputted.
 
+
 import cv2
+# cv2.gstreamer(True)
 from time import sleep
 from time import time
 import numpy as np

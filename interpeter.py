@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 
 # Load the model
-model = tf.keras.models.load_model("model.h5")
+model = tf.keras.models.load_model("fmodel.h5")
 
 # Set up the image processing parameters
 img_width, img_height = 128, 128

@@ -1,3 +1,4 @@
+# Dataset file convert HEIC to JPG-3chan/255
 from PIL import Image
 import os
 from sys import argv

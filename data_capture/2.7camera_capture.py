@@ -1,6 +1,7 @@
 # Data recording tool
 # This tool allows for the recording of mail data as a fixed position
 # scan. No input is accepted, and image scans are outputted.
+# ns
 
 import cv2
 from time import sleep
