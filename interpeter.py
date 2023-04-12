@@ -14,6 +14,8 @@ classes = ["business","junk"]
 train_dir = "./data_scans/"
 if not os.path.exists(train_dir):
     raise ValueError("Training directory does not exist!")
+true_counts = 0
+total_counts = 0
 for class_name in classes:
     class_dir = os.path.join(train_dir, class_name)
     for img_file in os.listdir(class_dir):
@@ -26,4 +28,7 @@ for class_name in classes:
         class_idx = int(np.round(pred[0]))
         class_name = classes[class_idx]
         print(f"Predicted class for image {img_path}: {class_name}")
-
+        total_counts += 1
+        if class_name in img_path:
+            true_counts += 1
+print(f'---DONE--- Results: {true_counts}/{total_counts}; {(true_counts/total_counts)*100}%')
